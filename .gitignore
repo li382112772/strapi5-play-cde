@@ -50,6 +50,7 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+.env
 
 
 ############################
@@ -107,6 +108,8 @@ core.*
 *.log
 *.pid.lock
 
+*.old
+
 
 
 ############################
@@ -130,7 +133,7 @@ lcov.info
 pids
 logs
 results
-node_modules
+node_modules/
 .node_history
 
 npm-debug.log*
@@ -205,3 +208,4 @@ build/
 .strapi-updater.json
 .strapi-cloud.json
 .tmp
+node_modules/
