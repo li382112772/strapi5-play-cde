@@ -1,2 +1,2 @@
-# 用来配置 run_command 和 compile_command
+# Used to configure run_command and compile_command
 run_command: HOST=0.0.0.0 PORT=8080 pnpm run develop
