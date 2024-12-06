@@ -14,8 +14,8 @@
     "title": {
       "type": "string"
     },
-    "related": {
-      "type": "text"
+    "hot": {
+      "type": "boolean"
     }
   }
 }
